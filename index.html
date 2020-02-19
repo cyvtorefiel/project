@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/master.css">
+
+  </head>
+  <body>
+    <header>
+      <br><br>
+      <h1 class="text-center">User Info</h1>
+    </header>
+    <main class="container">
+      <form>
+        <br>
+        <div class="form-row">
+          <div class="form-group col-sm-2">
+            <label for="inputFullName" class="col-form-label">Full Name</label>
+          </div>
+          <div class="col-sm-5">
+            <input class="form-control" id="inputFullName" placeholder="SURNAME, FIRSTNAME M.I.">
+          </div>
+       </div>
+        <div class="form-row">
+          <div class="form-group col-sm-2">
+            <label for="inputBirthdate" class="col-form-label">Birthdate</label>
+          </div>
+          <div class="col-sm-5">
+            <input type="date" class="form-control" id="inputBirthdate">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-2">
+            <label for="inputAddress" class="col-form-label">Address</label>
+          </div>
+          <div class="col-sm-5">
+          	<textarea id="inputAddress" class="form-control"></textarea>
+          	<br>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-2">
+            <label for="inputEmail" class="col-form-label">Email address</label>
+          </div>
+          <div class="col-sm-5">
+            <input type="email" class="form-control" id="inputEmail" placeholder="abcdefg@gmail.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-2">
+            <label for="inputMobile" class="col-form-label">Mobile number</label>
+          </div>
+          <div class="col-sm-5">
+            <input class="form-control" id="inputMobile" placeholder="9667778888">
+          </div>
+        </div>
+
+        <div class="form-group">
+            <div class="g-recaptcha" data-sitekey="6LcKBNoUAAAAAH8H6QatksCDFmg0tYUAOhjKA5eH" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+            <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+            <div class="help-block with-errors"></div>
+        </div>
+
+        <div class="wrapper">
+          	<button class="button, btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </main>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript" src="js/validator.min.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+  </body>
+</html>
