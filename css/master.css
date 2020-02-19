@@ -1,10 +1,10 @@
 .wrapper {
-    text-align: center;
+	text-align: center;
 }
 
 .button {
-    position: absolute;
-    top: 50%;
+	position: absolute;
+    	top: 50%;
 }
 
 .g-recaptcha{
@@ -12,8 +12,8 @@
 }
 
 .avatar {
-  vertical-align: middle;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  	vertical-align: middle;
+ 	width: 200px;
+  	height: 200px;
+  	border-radius: 50%;
 }
