@@ -16,49 +16,63 @@
       <form>
         <br>
         <div class="form-row">
-          <div class="form-group col-sm-2">
-            <label for="inputFullName" class="col-form-label">Full Name</label>
-          </div>
-          <div class="col-sm-5">
-            <input class="form-control" id="inputFullName" placeholder="SURNAME, FIRSTNAME M.I.">
-          </div>
-       </div>
+          	<div class="form-group col-sm-2">
+            	<label for="inputFullName" class="col-form-label">Full Name</label>
+          	</div>
+          	<div class="col-sm-5">
+            	<input class="form-control" id="inputFullName" placeholder="SURNAME, FIRSTNAME M.I.">
+          	</div>
+       	</div>
         <div class="form-row">
-          <div class="form-group col-sm-2">
-            <label for="inputBirthdate" class="col-form-label">Birthdate</label>
-          </div>
-          <div class="col-sm-5">
-            <input type="date" class="form-control" id="inputBirthdate">
-          </div>
+        	<div class="form-group col-sm-2">
+            	<label for="inputBirthdate" class="col-form-label">Birthdate</label>
+          	</div>
+          	<div class="col-sm-5">
+            	<input type="date" class="form-control" id="inputBirthdate">
+          	</div>
         </div>
         <div class="form-row">
-          <div class="form-group col-sm-2">
-            <label for="inputAddress" class="col-form-label">Address</label>
-          </div>
-          <div class="col-sm-5">
-          	<textarea id="inputAddress" class="form-control"></textarea>
-          	<br>
-          </div>
+          	<div class="form-group col-sm-2">
+            	<label for="inputAddress" class="col-form-label">Address</label>
+         	</div>
+         	<div class="col-sm-5">
+          		<textarea id="inputAddress" class="form-control" rows="8"></textarea>
+          		<br>
+        	</div>
+        	<div class="col-sm-2"></div>
+          	<div class="col-sm-2 wrapper"> 
+   				<img src="1.png" alt="Avatar" class="avatar">
+			</div>
         </div>
         <div class="form-row">
-          <div class="form-group col-sm-2">
-            <label for="inputEmail" class="col-form-label">Email address</label>
-          </div>
-          <div class="col-sm-5">
-            <input type="email" class="form-control" id="inputEmail" placeholder="abcdefg@gmail.com">
-          </div>
+          	<div class="form-group col-sm-2">
+            	<label for="inputEmail" class="col-form-label">Email address</label>
+          	</div>
+          	<div class="col-sm-5">
+            	<input type="email" class="form-control" id="inputEmail" placeholder="abcdefg@gmail.com">
+          	</div>
+          	<div class="col-sm-2"></div>
+          	<div class="col-sm-2 wrapper">
+          		<!--<input type="file" name="upload" class="btn btn-secondary form-control">-->
+          		<a href="#"><button class="button, btn btn-secondary">Upload a photo</button></a>
+          	</div>
         </div>
         <div class="form-row">
-          <div class="form-group col-sm-2">
-            <label for="inputMobile" class="col-form-label">Mobile number</label>
-          </div>
-          <div class="col-sm-5">
-            <input class="form-control" id="inputMobile" placeholder="9667778888">
-          </div>
+          	<div class="form-group col-sm-2">
+            	<label for="inputMobile" class="col-form-label">Mobile number</label>
+          	</div>
+          	<div class="col-sm-5">
+            	<input class="form-control" id="inputMobile" placeholder="9667778888">
+          	</div>
+          	<div class="col-sm-1"></div>
+          	<div class="col-sm-4">
+          		<textarea id="inputDesc" class="form-control" placeholder="Tell me about yourself..."></textarea>
+          		<br>
+          	</div>
         </div>
 
-        <div class="form-group">
-            <div class="g-recaptcha" data-sitekey="6LcKBNoUAAAAAH8H6QatksCDFmg0tYUAOhjKA5eH" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+        <div class="wrapper">
+            <div class="g-recaptcha" data-sitekey="6LdnPNoUAAAAAH_hHS9L_i_Pu3EJZVq3qz1duT0p" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
             <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
             <div class="help-block with-errors"></div>
         </div>
@@ -74,6 +88,5 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script type="text/javascript" src="js/validator.min.js"></script>
-    <script type="text/javascript" src="js/contact.js"></script>
   </body>
 </html>
